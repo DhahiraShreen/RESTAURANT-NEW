@@ -1,0 +1,24 @@
+/* Menu.css */
+.menu {
+    height: 100vh; /* Make sure the container takes up the full viewport height */
+    background-image: url('../../public/images/menu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
